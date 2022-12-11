@@ -4,7 +4,7 @@ import profile from '../../../assets/bannerImg/profile.jpg'
 const Banner = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-pink-400 ">
+            <div className="hero min-h-screen bg-purple-400 ">
                 <div className="hero-content flex-col justify-between lg:flex-row-reverse">
                     <img src={profile} className="w-1/3 rounded-full shadow-2xl" alt='' />
                     <div>
