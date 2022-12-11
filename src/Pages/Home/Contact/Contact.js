@@ -2,13 +2,12 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="hero min-h-screen bg-purple-400">
-            <div className=" ">
-                <div className="text-center">
-                    <h1 className="text-4xl font-bold mb-4">CONTACT ME</h1>
-                </div>
-                <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        <section className='mt-16'>
+            <h1 className="text-3xl text-center font-bold mb-5 mt-10">CONTACT ME AS A DEVELOPER</h1>
+            <div className="hero min-h-screen bg-purple-400">
 
+                <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <h1 className="text-3xl text-center font-bold mt-2">GET IN TOUCH </h1>
                     <div className="card-body">
                         <div className="form-control">
                             <label className="label">
@@ -33,8 +32,10 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
-        </div>
+        </section>
+
     );
 };
 

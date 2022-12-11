@@ -6,7 +6,6 @@ const ProjectCard = ({ project }) => {
 
     return (
         <div className="px-4 py-5">
-
             <div className="card bg-base-100 shadow-xl">
                 <figure><img src={img} alt="" /></figure>
 
@@ -27,7 +26,6 @@ const ProjectCard = ({ project }) => {
                     </div>
                 </div>
             </div>
-
         </div >
     );
 };
