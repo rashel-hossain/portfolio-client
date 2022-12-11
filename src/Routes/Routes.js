@@ -1,10 +1,18 @@
+import Main from "../Layouts/Main";
+import Home from "../Pages/Home/Home/Home";
+
 const { createBrowserRouter } = require("react-router-dom");
-const { default: Home } = require("../Pages/Home/Home/Home");
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Home></Home>,
+        element: <Main></Main>,
+        children: [
+            {
+                path: '/',
+                element: <Home></Home>,
+            }
+        ]
 
     }
 ])

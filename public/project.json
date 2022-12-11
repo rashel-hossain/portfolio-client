@@ -1,0 +1,23 @@
+[
+    {
+        "id": "01",
+        "projectName": "Laptop-Shop",
+        "projectDate": "25 Nov 2022",
+        "description": "The Galaxy experience Do more effortlessly with Galaxy devices \t\tthat work seamlessly together. Galaxy Books are loaded with the features you \t\tneed to work, play and conquer the day.",
+        "img": "https://i.ibb.co/SdGQgVy/Project-1.png"
+    },
+    {
+        "id": "02",
+        "projectName": "RH-Photography",
+        "projectDate": "25 Nov 2022",
+        "description": "The Galaxy experience Do more effortlessly with Galaxy devices \t\tthat work seamlessly together. Galaxy Books are loaded with the features you \t\tneed to work, play and conquer the day.",
+        "img": "https://i.ibb.co/cbr3HPC/Project-2.png"
+    },
+    {
+        "id": "03",
+        "projectName": "SkillCrush",
+        "projectDate": "25 Nov 2022",
+        "description": "The Galaxy experience Do more effortlessly with Galaxy devices \t\tthat work seamlessly together. Galaxy Books are loaded with the features you \t\tneed to work, play and conquer the day.",
+        "img": "https://i.ibb.co/3Rp7skP/Project-3.png"
+    }
+]
