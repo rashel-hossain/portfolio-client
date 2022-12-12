@@ -15,8 +15,8 @@ const TestimonialAll = () => {
 
     return (
         <section id="testimonial">
-            <div>
-                <h2 className='text-3xl font-bold text-center mt-16'>MY TESTIMONIAL ACHIVEMENT</h2>
+            <div className='max-w-[1150px] mx-auto'>
+                <h2 className='text-3xl font-bold text-center mt-16 mb-5'>MY TESTIMONIAL ACHIVEMENT</h2>
                 <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                     {
                         testimonials?.length > 0 &&

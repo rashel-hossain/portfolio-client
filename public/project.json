@@ -10,14 +10,14 @@
         "id": "02",
         "projectName": "RH-Photography",
         "projectDate": "25 Nov 2022",
-        "description": "This project is ",
+        "description": "This project is developed by React Js using react-router-dom. Here is add service and delete the service. Users can add a review by clicking the details services page. User Authentication handle in firebase. And the client side has been deployed in firebase",
         "img": "https://i.ibb.co/cbr3HPC/Project-2.png"
     },
     {
         "id": "03",
         "projectName": "SkillCrush",
         "projectDate": "25 Nov 2022",
-        "description": "The Galaxy experience Do more effortlessly with Galaxy devices \t\tthat work seamlessly together. Galaxy Books are loaded with the features you \t\tneed to work, play and conquer the day.",
+        "description": "This project was developed by React Js using react-router-dom. Using a private route gets a premium course. And dynamic checkout page. Download the course details page as a pdf. Authentication handle in firebase. And the client side has been deployed in firebase.",
         "img": "https://i.ibb.co/3Rp7skP/Project-3.png"
     }
 ]

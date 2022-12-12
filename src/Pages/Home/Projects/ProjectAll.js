@@ -16,7 +16,7 @@ const ProjectAll = () => {
 
 
     return (
-        <div>
+        <div id='projects'>
             <h2 className='text-3xl font-bold text-center mt-16'>MY PROJECTS</h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {

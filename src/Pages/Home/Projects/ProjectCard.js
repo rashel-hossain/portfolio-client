@@ -10,19 +10,23 @@ const ProjectCard = ({ project }) => {
                 <figure><img src={img} alt="" /></figure>
 
                 <div className="card-body">
-                    <h2 className="card-title">
+                    <h2 className="card-title font-bold text-2xl">
                         {projectName}
-                        <div className="badge badge-secondary">NEW</div>
                     </h2>
-
-                    <h5 className=" font-bold tracking-tight text-gray-900 dark:text-white">
+                    <div className='flex'>
+                        <div className="badge mr-1">React.Js</div>
+                        <div className="badge mr-1">Node.Js</div>
+                        <div className="badge mr-1">MongoDb</div>
+                        <div className="badge mr-1">Firebase</div>
+                    </div>
+                    <h5 className="tracking-tight text-gray-900 dark:text-white">
                         Date: {projectDate}
                     </h5>
                     <p className="font-normal text-gray-700 dark:text-gray-400">
                         {description.slice(0, 100) + '...'} <span className='text-red-400'><Link to={`/projectdetails/${id}`}>Read More</Link></span>
                     </p>
                     <div className="card-actions justify-center ">
-                        <Link to={`/projectdetails/${id}`} className='w-full'><button className="btn btn-wide justify-center items-center w-full" >Explore Project</button></Link>
+                        <Link to={`/projectdetails/${id}`} className='w-full'><button className="btn btn-wide bg-gradient-to-r from-violet-500 to-fuchsia-500 justify-center items-center w-full" >Explore Project</button></Link>
                     </div>
                 </div>
             </div>

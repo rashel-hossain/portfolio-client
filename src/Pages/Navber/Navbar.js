@@ -6,10 +6,10 @@ const Navbar = () => {
     const menuItems =
         <React.Fragment>
             <li><Link to='/'>Home</Link></li>
-            <li><Link href="#projects">Projects</Link></li>
-            <li><Link href="#testimonial">Testimonial</Link></li>
-            <li><Link href="#about">About</Link></li>
-            <li><Link href="#Contact">Contact</Link></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </React.Fragment>
 
     return (
@@ -23,16 +23,14 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost normal-case text-xl font-bold">Portfolio</Link>
+                <Link to='/' className="btn btn-ghost normal-case text-2xl font-bold"><span className='text-white uppercase'>Portfol</span> <span className='text-red-400'>io</span></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0 font-bold text-white uppercase">
                     {menuItems}
                 </ul>
             </div>
-            <label tabIndex={2} htmlFor="dashboard-drawer" className="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </label>
+
         </div>
     );
 };

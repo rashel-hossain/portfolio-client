@@ -14,9 +14,8 @@ const Contact = () => {
         form.reset();
     }
 
-
     return (
-        <section className='mt-16'>
+        <section className='mt-16' id='contact'>
             <h1 className="text-3xl text-center font-bold mb-5 mt-10">CONTACT ME AS A DEVELOPER</h1>
             <form onSubmit={sendEmail}>
                 <div className="hero min-h-screen bg-purple-400">
