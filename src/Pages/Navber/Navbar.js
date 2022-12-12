@@ -6,10 +6,10 @@ const Navbar = () => {
     const menuItems =
         <React.Fragment>
             <li><Link to='/'>Home</Link></li>
-            <li><Link to='/project'>Projects</Link></li>
-            <li><Link to='/testimonial'>Testimonial</Link></li>
-            <li><Link to='/about'>About</Link></li>
-            <li><Link to='/contact'>Contact</Link></li>
+            <li><Link href="#projects">Projects</Link></li>
+            <li><Link href="#testimonial">Testimonial</Link></li>
+            <li><Link href="#about">About</Link></li>
+            <li><Link href="#Contact">Contact</Link></li>
         </React.Fragment>
 
     return (

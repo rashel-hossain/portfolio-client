@@ -14,18 +14,21 @@ const TestimonialAll = () => {
     }, [])
 
     return (
-        <div>
-            <h2 className='text-3xl font-bold text-center mt-16'>MY TESTIMONIAL ACHIVEMENT</h2>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {
-                    testimonials?.length > 0 &&
-                    testimonials.map(testimonial => <TestimonialCard
-                        key={testimonial._id}
-                        testimonial={testimonial}
-                    ></TestimonialCard>)
-                }
+        <section id="testimonial">
+            <div>
+                <h2 className='text-3xl font-bold text-center mt-16'>MY TESTIMONIAL ACHIVEMENT</h2>
+                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                    {
+                        testimonials?.length > 0 &&
+                        testimonials.map(testimonial => <TestimonialCard
+                            key={testimonial._id}
+                            testimonial={testimonial}
+                        ></TestimonialCard>)
+                    }
+                </div>
             </div>
-        </div>
+
+        </section>
 
     );
 };

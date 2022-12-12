@@ -3,14 +3,14 @@
         "id": "01",
         "projectName": "Laptop-Shop",
         "projectDate": "25 Nov 2022",
-        "description": "The Galaxy experience Do more effortlessly with Galaxy devices \t\tthat work seamlessly together. Galaxy Books are loaded with the features you \t\tneed to work, play and conquer the day.",
+        "description": "This project is product re-selling website. It was developed by React Js using react-router-dom. And a dedicated admin panel in Private routes. User Authentication handle in firebase. Stripe Payment Gateway Method.",
         "img": "https://i.ibb.co/SdGQgVy/Project-1.png"
     },
     {
         "id": "02",
         "projectName": "RH-Photography",
         "projectDate": "25 Nov 2022",
-        "description": "The Galaxy experience Do more effortlessly with Galaxy devices \t\tthat work seamlessly together. Galaxy Books are loaded with the features you \t\tneed to work, play and conquer the day.",
+        "description": "This project is ",
         "img": "https://i.ibb.co/cbr3HPC/Project-2.png"
     },
     {
