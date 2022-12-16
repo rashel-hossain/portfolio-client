@@ -15,6 +15,7 @@ const Contact = () => {
     }
 
     return (
+
         <section className='mt-16' id='contact'>
             <h1 className="text-3xl text-center font-bold mb-5 mt-10">CONTACT ME AS A DEVELOPER</h1>
             <form onSubmit={sendEmail}>
