@@ -40,7 +40,7 @@ const Banner = () => {
                             <br />I love to solve real-world problems.
                         </p>
                         <button className="btn btn-primary bg-gradient-to-r from-primary to-secondary text-white mt-2">
-                            <a href={Resume}>Download Resume</a>
+                            <a href="https://drive.google.com/file/d/1pcAFJNzyYdX8SRHTRtK2bfSemnt2pfjJ/view?usp=sharing">Download Resume</a>
                         </button>
                     </div>
                 </div>
