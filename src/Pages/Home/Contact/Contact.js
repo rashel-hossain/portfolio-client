@@ -19,7 +19,7 @@ const Contact = () => {
         <section className='mt-16' id='contact'>
             <h1 className="text-3xl text-center font-bold mb-5 mt-10">CONTACT ME AS A DEVELOPER</h1>
             <form onSubmit={sendEmail}>
-                <div className="hero min-h-screen bg-purple-400">
+                <div className="hero min-h-screen bg-slate-900">
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <h1 className="text-3xl text-center font-bold mt-2">GET IN TOUCH </h1>
                         <div className="card-body">

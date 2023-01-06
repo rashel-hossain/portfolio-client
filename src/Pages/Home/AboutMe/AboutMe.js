@@ -19,7 +19,7 @@ const AboutMe = () => {
                             authorization. and Design Patterns HTML5, CSS3, Bootstrap and Tailwind CSS.
                         </p>
 
-                        <button className="btn bg-red-600">Hire Me...</button>
+                        <button className="btn bg-gradient-to-r from-sky-700 to-indigo-500 text-white">Hire Me...</button>
                     </div>
                 </div>
             </div>
