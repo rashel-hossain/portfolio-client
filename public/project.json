@@ -2,22 +2,79 @@
     {
         "id": "01",
         "projectName": "Laptop-Shop",
-        "projectDate": "25 Nov 2022",
+        "technology": [
+            {
+                "react": "React.Js",
+                "node": "Node",
+                "express": "mongoDb",
+                "mongoDb": "mongoDb",
+                "firebase": "firebase",
+                "JWT": "JWT",
+                "stripe": "stripe"
+            }
+        ],
+        "clientSite": "https://github.com/rasel497/Rh-laptop-shop-client",
+        "serverSite": "https://github.com/rasel497/Rh-laptop-shop-server",
+        "liveDemo": "https://laptop-shop-656c2.web.app/",
+        "projectDate": "30 Nov 2022",
         "description": "This project is product re-selling website. It was developed by React Js using react-router-dom. And a dedicated admin panel in Private routes. User Authentication handle in firebase. Stripe Payment Gateway Method.",
-        "img": "https://i.ibb.co/SdGQgVy/Project-1.png"
+        "img": "https://i.ibb.co/TRTHMLd/Screenshot-20230117-064344.png"
     },
     {
         "id": "02",
         "projectName": "RH-Photography",
-        "projectDate": "25 Nov 2022",
+        "technology": [
+            {
+                "react": "React.Js",
+                "node": "Node",
+                "express": "mongoDb",
+                "mongoDb": "mongoDb",
+                "firebase": "firebase"
+            }
+        ],
+        "clientSite": "https://github.com/rasel497/rh-photography-client",
+        "serverSite": "https://github.com/rasel497/rh-photography-server",
+        "liveDemo": "https://rh-photography.web.app/",
+        "projectDate": "19 Nov 2022",
         "description": "This project is developed by React Js using react-router-dom. Here is add service and delete the service. Users can add a review by clicking the details services page. User Authentication handle in firebase. And the client side has been deployed in firebase",
         "img": "https://i.ibb.co/cbr3HPC/Project-2.png"
     },
     {
         "id": "03",
         "projectName": "SkillCrush",
-        "projectDate": "25 Nov 2022",
+        "technology": [
+            {
+                "react": "React.Js",
+                "node": "Node",
+                "express": "mongoDb",
+                "mongoDb": "mongoDb",
+                "firebase": "firebase"
+            }
+        ],
+        "clientSite": "https://github.com/rasel497/skillcrush-tech-client",
+        "serverSite": "https://github.com/rasel497/skillcrush-tech-server",
+        "liveDemo": "https://skillcrush-tech.web.app/",
+        "projectDate": "09 Nov 2022",
         "description": "This project was developed by React Js using react-router-dom. Using a private route gets a premium course. And dynamic checkout page. Download the course details page as a pdf. Authentication handle in firebase. And the client side has been deployed in firebase.",
         "img": "https://i.ibb.co/3Rp7skP/Project-3.png"
+    },
+    
+    {
+        "id": "04",
+        "projectName": "Daily Dev News",
+        "technology": [
+            {
+                "react": "React.Js",
+                "node": "Node",
+                "express": "mongoDb",
+                "mongoDb": "mongoDb",
+                "firebase": "firebase"
+            }
+        ],
+        "clientSite": "https://github.com/rasel497/daily-dev-news-portal",
+        "liveDemo": "https://idyllic-nougat-9fb10c.netlify.app/",
+        "projectDate": "19 Nov 2022",
+        "description": "This project is developed by React Js using react-router-dom. Here is add service and delete the service. Users can add a review by clicking the details services page. User Authentication handle in firebase. And the client side has been deployed in firebase",
+        "img": "https://i.ibb.co/wcJcGK1/Screenshot-20230110-022523.png"
     }
 ]

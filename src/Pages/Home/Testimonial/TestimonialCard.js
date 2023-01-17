@@ -5,7 +5,7 @@ const TestimonialCard = ({ testimonial }) => {
     return (
         <div className="px-4 py-5 bg-blue-900 rounded">
             <div className="card">
-                <img src={img} alt="" />
+                <img src={img} className="w-full h-80" alt="" />
             </div>
         </div >
     );

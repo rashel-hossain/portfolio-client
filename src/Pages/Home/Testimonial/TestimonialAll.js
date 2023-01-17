@@ -14,10 +14,14 @@ const TestimonialAll = () => {
     }, [])
 
     return (
-        <section id="testimonial">
+        <section id="testimonial" className='mt-16'>
             <div className='max-w-[1150px] mx-auto'>
-                <h2 className='text-3xl font-bold text-center mt-16 mb-5'>MY TESTIMONIAL ACHIVEMENT</h2>
-                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="text-center text-white">
+                    <h3 className="text-4xl font-semibold">
+                        My <span className="text-cyan-600">Testimonial</span>
+                    </h3>
+                </div>
+                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 mt-12">
                     {
                         testimonials?.length > 0 &&
                         testimonials.map(testimonial => <TestimonialCard
