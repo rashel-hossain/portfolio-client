@@ -54,8 +54,6 @@ const AboutMe = () => {
                                 className="w-full object-cover bg-cyan-600 rounded-xl"
                             />
                         </div>
-                        
-
                     </div>
                 </div>
             </div>

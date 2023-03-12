@@ -5,7 +5,7 @@ import router from './Routes/Routes';
 
 function App() {
   return (
-    <div style={{background:'#02132B'}}>
+    <div style={{ background: '#02132B' }}>
       <RouterProvider router={router}></RouterProvider>
       <Toaster></Toaster>
     </div>

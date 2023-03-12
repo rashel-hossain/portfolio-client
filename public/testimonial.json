@@ -1,26 +1,26 @@
 [
     {
         "id": "01",
-        "img": "https://i.ibb.co/8mPs2Yn/Web-Development1024-1.jpg"
+        "img": "https://res.cloudinary.com/ddex1kbr7/image/upload/v1678610662/1676967904031_1_fhnsfb.png"
     },
     {
         "id": "02",
-        "img": "https://i.ibb.co/FsZ8Jkg/DIU-01-IOT.jpg"
+        "img": "https://res.cloudinary.com/ddex1kbr7/image/upload/v1678608731/certificate-1_vymita.png"
     },
     {
         "id": "03",
-        "img": "https://i.ibb.co/nrRCfVP/DIU-02-ML.jpg"
+        "img": "https://i.ibb.co/8mPs2Yn/Web-Development1024-1.jpg"
     },
     {
         "id": "04",
-        "img": "https://i.ibb.co/K57hx11/BUSINESS-EXCEL-COURSE.jpg"
+        "img": "https://i.ibb.co/FsZ8Jkg/DIU-01-IOT.jpg"
     },
     {
         "id": "05",
-        "img": "https://i.ibb.co/GvNjT0j/Networking-01.jpg"
+        "img": "https://i.ibb.co/nrRCfVP/DIU-02-ML.jpg"
     },
     {
         "id": "06",
-        "img": "https://i.ibb.co/F58Jb8h/CNNA-02.jpg"
+        "img": "https://i.ibb.co/K57hx11/BUSINESS-EXCEL-COURSE.jpg"
     }
 ]
