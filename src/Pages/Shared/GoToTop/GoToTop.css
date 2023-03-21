@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins, 'sans-serif';
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 12px;
+    background-color: darkcyan;
+    color: #ffff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.scrollTop:hover {
+    background-color: tomato;
+    color: white;
+}

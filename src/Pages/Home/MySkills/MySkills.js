@@ -28,18 +28,17 @@ const MySkills = () => {
                         <img className='w-20 m-2' src={react} alt='' />
                     </div>
                     <div>
-                        <img className='w-20 m-2' src={firebase} alt='' />
-                    </div>
-                    <div>
                         <img className='w-20 m-2' src={nodeJs} alt='' />
                     </div>
                     <div>
                         <img className='w-20 m-2' src={mongodb} alt='' />
                     </div>
+                    <div>
+                        <img className='w-20 m-2' src={firebase} alt='' />
+                    </div>
                 </div>
             </div>
         </section>
-
     );
 };
 
