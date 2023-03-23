@@ -1,30 +1,31 @@
 import React from 'react';
-import Lottie from 'lottie-web';
-import developerMern from '../../../assets/bannerImg/developer-mern.png'
 import './Banner.css'
 import TypeWriterEffect from 'react-typewriter-effect';
 import facebook from '../../../assets/socialIcons/facebook.png'
 import linkedin from '../../../assets/socialIcons/linkedin.png'
 import github from '../../../assets/socialIcons/github.png'
 import { FaCloudDownloadAlt } from "react-icons/fa";
+import CircleSkills from '../../Shared/CircleSkills/CircleSkills';
+
 
 const Banner = () => {
     return (
-        <section className='px-4'>
-            <div className="hero min-h-screen bg-slate-900">
+        <section className='overflow-hidden'>
+            <div className="hero min-h-screen">
                 <div className="hero-content flex-col justify-between lg:flex-row-reverse">
-                    <img src={developerMern} className="md:w-3/12 object-cover rounded-md" alt='' />
+                    {/* <img src={developerMern} className="md:w-3/12 object-cover rounded-md" alt='' /> */}
+                    <CircleSkills></CircleSkills>
                     <div>
                         <div>
-                            <h1 className="text-6xl font-bold text-white">Hello I'm,,,<br />
-                                <span className='text-white'>
+                            <h1 className="font-mono text-6xl font-bold text-white">Hello I'm...<br />
+                                <span>
                                     {/* I'm Rashel Hossain */}
                                     <TypeWriterEffect
                                         textStyle={{
-                                            fontFamily: 'Red Hat Display',
+                                            fontFamily: 'mono',
                                             color: '#64ffda',
                                             fontWeight: 700,
-                                            fontSize: '1.2em',
+                                            fontSize: '64px',
                                         }}
                                         startDelay={2000}
                                         cursorColor="#3F3D56"
@@ -39,10 +40,9 @@ const Banner = () => {
                                     />
                                 </span>
                             </h1>
-                            <p className='text-xl text-fuchsia-50 mt-6'>
+                            <p className=' text-orange-50 mt-6'>
                                 I’m a software developer who is passionate about making professional websites.
-                                <br />I have a passion for learning and sharing my knowledge with others as publicly as possible.
-                                <br />I love to solve real-world problems.
+                                <br />I have a passion for learning and sharing my knowledge with others as publicly as possible. I love to solve real-world problems.
                             </p>
                             <button className="btn-primary w-fit bg-cyan-600 font-semibold text-white md:mx-0 mx-auto rounded-full  mt-10 flex items-center gap-2">
                                 <a href="https://drive.google.com/file/d/1pcAFJNzyYdX8SRHTRtK2bfSemnt2pfjJ/view?usp=sharing">Download Resume</a><FaCloudDownloadAlt />
